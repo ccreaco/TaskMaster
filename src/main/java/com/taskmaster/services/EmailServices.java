@@ -29,8 +29,8 @@ public class EmailServices {
 	public void sendAuthroizationEmail() {
 
 		// declaring the sender's email address and password
-		String email = "taskmaster.group7@gmail.com";
-		String password = "Group07!!";
+		String email = "email@gmail.com";
+		String password = "password";
 
 		// create a properties instance
 		Properties p = new Properties();
@@ -70,8 +70,8 @@ public class EmailServices {
 
 	public void sendPasswordResetEmail(String email, String newPassword) {
 		// declaring the sender's email address and password
-		String fromEmail = "taskmaster.group7@gmail.com";
-		String password = "Group07!!";
+		String fromEmail = "email@gmail.com";
+		String password = "password";
 
 		// create a properties instance
 		Properties p = new Properties();
