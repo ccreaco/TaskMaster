@@ -56,7 +56,7 @@ public class EmailServices {
 			message.addRecipient(Message.RecipientType.TO, new InternetAddress(userEmail));
 			message.setSubject("TaskMaster - Activate Accountl");
 			message.setText("To activate your account, please click the following link: "
-					+ "http://localhost:8081/TaskMaster_CapstoneProject_Group7/ActivateUserServlet?email=" + userEmail);
+					+ "http://localhost:8081/TaskMaster/ActivateUserServlet?email=" + userEmail);
 			Transport.send(message);
 
 		} catch (Exception e) {
