@@ -19,10 +19,10 @@
 	<!-- LOGIN -->
 	<div style="text-align: right; float: right; margin: 10px; class="loginbar">
 		<a
-			href="http://localhost:8081/TaskMaster_CapstoneProject_Group7/login.jsp">Login</a>
+			href="http://localhost:8081/TaskMaster/login.jsp">Login</a>
 		<div class="register">
 			<a
-				href="http://localhost:8081/TaskMaster_CapstoneProject_Group7/register.jsp">Register</a>
+				href="http://localhost:8081/TaskMaster/register.jsp">Register</a>
 		</div>
 	</div>
 	
@@ -51,7 +51,7 @@
 	</div>
 
 	<div class="bottom_nav">
-		<a href="http://localhost:8081/TaskMaster_CapstoneProject_Group7/">Home</a>
+		<a href="http://localhost:8081/TaskMaster/">Home</a>
 	</div>
 
 

@@ -39,7 +39,7 @@ public class DeleteServlet extends HttpServlet {
 		}
 
 		if (status > 0) {
-			response.sendRedirect("http://localhost:8081/TaskMaster_CapstoneProject_Group7/");
+			response.sendRedirect("http://localhost:8081/TaskMaster/");
 		} else {
 			PrintWriter writer = response.getWriter();
 			writer.write("Unable to delete!");

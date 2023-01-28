@@ -26,7 +26,7 @@ public class LogoutServlet extends HttpServlet {
 			session.removeAttribute("userName");
 			session.invalidate();
 
-			response.sendRedirect("http://localhost:8081/TaskMaster_CapstoneProject_Group7/");
+			response.sendRedirect("http://localhost:8081/TaskMaster/");
 
 		}
 	}

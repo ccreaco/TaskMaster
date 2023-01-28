@@ -52,7 +52,7 @@ public class TaskServlet extends HttpServlet {
 			request.setAttribute("error", "Please try again.");
 			  request.getRequestDispatcher("/addtask.jsp").include(request, response);
 		} else { 
-			response.sendRedirect("http://localhost:8081/TaskMaster_CapstoneProject_Group7/welcome.jsp");
+			response.sendRedirect("http://localhost:8081/TaskMaster/welcome.jsp");
 		}
 		
 

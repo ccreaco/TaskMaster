@@ -44,7 +44,7 @@
 
 
 <div class="bottom_nav">
-<a href="http://localhost:8081/TaskMaster_CapstoneProject_Group7/">Home</a>
+<a href="http://localhost:8081/TaskMaster/">Home</a>
 </div>
 
 </body>

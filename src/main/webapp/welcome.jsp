@@ -35,26 +35,26 @@
 			<ul>
 
 				<li><a
-					href="http://localhost:8081/TaskMaster_CapstoneProject_Group7/changepassword.jsp">Change
+					href="http://localhost:8081/TaskMaster/changepassword.jsp">Change
 						Password</a></li>
 				<li><a
-					href="http://localhost:8081/TaskMaster_CapstoneProject_Group7/deleteaccount.jsp">Delete
+					href="http://localhost:8081/TaskMaster/deleteaccount.jsp">Delete
 						Account</a></li>
 
 				<li><a
-					href="http://localhost:8081/TaskMaster_CapstoneProject_Group7/LogoutServlet">Logout</a></li>
+					href="http://localhost:8081/TaskMaster/LogoutServlet">Logout</a></li>
 			</ul></li>
 	</div>
 
 	<!-- BOTTOM NAVIGATION -->
 	<div class="bottom_nav">
-		<a href="http://localhost:8081/TaskMaster_CapstoneProject_Group7/">Home</a>
+		<a href="http://localhost:8081/TaskMaster/">Home</a>
 	</div>
 
 
 	<sql:setDataSource var="myDS" driver="com.mysql.jdbc.Driver"
 		url="jdbc:mysql://localhost:3309/taskmaster" user="root"
-		password="Sandor12" />
+		password="password" />
 
 	<sql:query var="listTasks" dataSource="${myDS}">
     	SELECT * 
@@ -80,8 +80,8 @@
 					<td><c:out value="${task.taskStatus}"/></td>
 					<td><c:out value="${task.targetDate}"/></td>
 					<td>
-					<a href="http://localhost:8081/TaskMaster_CapstoneProject_Group7/MarkTaskCompleteServlet?taskID=<c:out value='${task.taskID}' />">Complete</a>
-						&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://localhost:8081/TaskMaster_CapstoneProject_Group7/DeleteTaskServlet?taskID=<c:out value='${task.taskID}' />">Delete</a>
+					<a href="http://localhost:8081/TaskMaster/MarkTaskCompleteServlet?taskID=<c:out value='${task.taskID}' />">Complete</a>
+						&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://localhost:8081/TaskMaster/DeleteTaskServlet?taskID=<c:out value='${task.taskID}' />">Delete</a>
 					</td>
 				</tr>
 				
@@ -90,9 +90,9 @@
 		</table>
 		</br>
 		</br>
-		<a href="http://localhost:8081/TaskMaster_CapstoneProject_Group7/addtask.jsp">New Task</a>
+		<a href="http://localhost:8081/TaskMaster/addtask.jsp">New Task</a>
 		&nbsp;&nbsp;&nbsp;&nbsp; 
-		<a href="http://localhost:8081/TaskMaster_CapstoneProject_Group7/DeleteAllTasksServlet">Delete all tasks</a>
+		<a href="http://localhost:8081/TaskMaster/DeleteAllTasksServlet">Delete all tasks</a>
 
 	</div>
 </body>

@@ -64,7 +64,7 @@ public class RegisterServlet extends HttpServlet {
 		  
 		  EmailServices es = new EmailServices(email); es.sendAuthroizationEmail();
 		  response.sendRedirect(
-		  "http://localhost:8081/TaskMaster_CapstoneProject_Group7/verify.jsp");
+		  "http://localhost:8081/TaskMaster/verify.jsp");
 		  
 		  }
 		 

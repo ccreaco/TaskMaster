@@ -35,20 +35,20 @@
 			<ul>
 
 				<li><a
-					href="http://localhost:8081/TaskMaster_CapstoneProject_Group7/changepassword.jsp">Change
+					href="http://localhost:8081/TaskMaster/changepassword.jsp">Change
 						Password</a></li>
 				<li><a
-					href="http://localhost:8081/TaskMaster_CapstoneProject_Group7/deleteaccount.jsp">Delete
+					href="http://localhost:8081/TaskMaster/deleteaccount.jsp">Delete
 						Account</a></li>
 
 				<li><a
-					href="http://localhost:8081/TaskMaster_CapstoneProject_Group7/LogoutServlet">Logout</a></li>
+					href="http://localhost:8081/TaskMaster/LogoutServlet">Logout</a></li>
 			</ul></li>
 	</div>
 
 	<!-- BOTTOM NAVIGATION -->
 	<div class="bottom_nav">
-		<a href="http://localhost:8081/TaskMaster_CapstoneProject_Group7/">Home</a>
+		<a href="http://localhost:8081/TaskMaster/">Home</a>
 	</div>
 
 	
